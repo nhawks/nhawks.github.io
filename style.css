@@ -17,6 +17,10 @@
   p {
     margin: 0.75rem 0;
   }
+
+  html{
+    scroll-behavior: smooth;
+}
   
   
 /* Main Styling */
