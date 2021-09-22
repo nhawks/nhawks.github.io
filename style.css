@@ -172,18 +172,17 @@ header{
 
 .text-above-title{
   position: absolute;
-  top: 42%;
-  left: 35.7%;
+  top: 44%;
+  left: 34.7%;
   transform: translate(-50%, -50%);
   font-family: 'Montserrat', sans-serif;
   
 }
 
-
 .text-below-title{
   position:absolute;
   top: 64%;
-  left: 48.4%;
+  left: 47.6%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
   max-width: 520px;
@@ -286,4 +285,3 @@ header{
   padding: 20px;
   font-weight: 150;
 }
-
