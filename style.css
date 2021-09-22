@@ -145,11 +145,11 @@ section{
   display: flex;
   position: sticky;
   top:0;
-  background:#2f3e46;
+  background: #2f3e46;
   color: #fff;
   justify-content: space-between;
   z-index: 1;
-  padding: 1rem;
+  padding-top: 0.30rem;
 }
 
 #navbar ul {
@@ -162,10 +162,16 @@ section{
   color:#CAD2C5;
   padding: 0.75rem;
   margin: 0 0.25rem;
+  font-size: 20px;
 }
 
 #navbar ul li a:hover {
   color:#60b672;
+}
+
+#navbar .logo, ul li a{
+  font-weight: 200;
+  padding-left: 10px;
 }
 
 header{
