@@ -25,13 +25,13 @@ html{
 
 /* Utility Classes */
 
-section {
+/* section {
   width: 100%;
   float: left;
   height: 100vh;
   position: relative;
   margin-left: 15rem;
-}
+} */
 
 .container {
   max-width: 1100px;
@@ -137,9 +137,24 @@ section {
 }
 
 #navbar ul li a:hover {
-  color: #fff;
+  color: #ffffff;
   border-radius: 5px;
 }
+/* end------------------------------------------------------------------------------------------------------------- */
+
+/* Contact */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align:center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+
 /* end------------------------------------------------------------------------------------------------------------- */
 
 /* Padding */
