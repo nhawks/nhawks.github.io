@@ -75,9 +75,6 @@ section{
   opacity: 60%;
 }
 
-.icon-color {
-  color: #CAD2C5;
-}
 
 /* TEXT SIZING */
 .main-title {
@@ -87,6 +84,12 @@ section{
 .sub-title {
   font-size: 3rem;
   color: #52796F;
+}
+
+.small-text {
+  font-size: 1rem;
+  color: #CAD2C5;
+  opacity: 60%;
 }
 
 /* TEXT ALIGNMENT */
@@ -226,10 +229,23 @@ header{
 
 
 #contact .box {
+  margin-top: 10%;
   float: left;
   width: 33.3%;
   padding: 50px;
   text-align:center;
+}
+
+.icon-color {
+  color: #CAD2C5;
+}
+
+#contact i:hover {
+  color: #60b672;
+}
+
+.box i {
+  margin-bottom: 2px;
 }
 
 
