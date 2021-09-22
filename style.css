@@ -1,61 +1,72 @@
-/* Reset */
-* {
+/*? CSS RESET */
+*{
   margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.4;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  margin: 0.75rem 0;
+  padding: 0;
 }
 
 html{
   scroll-behavior: smooth;
 }
-/* end------------------------------------------------------------------------------------------------------------- */
 
-/* Utility Classes */
+body{
+  font-size: 100%;
+  font-family: sans-serif;
+}
 
-/* section {
+div, section, span, ul, li, a, header{
+  box-sizing: border-box;
+}
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+/*? NAVBAR  */
+#home h2, #menu li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+#home h2, #menu li a{
+  color: #CAD2C5;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+/*? MAIN STYLING - UTILITY CLASSES */
+#home, #projects, #about, #contact{
+  background-color: #2F3E46;
+}
+
+#projects h1, #about h1, #contact h1{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #CAD2C5;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+section{
   width: 100%;
   float: left;
   height: 100vh;
   position: relative;
-  margin-left: 15rem;
-} */
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 2rem;
-  overflow: hidden;
 }
 
-.text-center {
-  text-align:center;
-}
-
-.text-left {
-  text-align:left;
-}
-
-.bg-color {
-  background-color:#2F3E46 ;
-}
-
-.text-primary {
-  color: #CAD2C5;
-}
-
+/* COLORS:  2F3E46 - 354F52 - 52796F - 84A98C - CAD2C5  */ 
 .text-primary {
   color: #CAD2C5;
 }
@@ -68,7 +79,7 @@ html{
   color: #84A98C;
 }
 
-.text-info {
+.text-soft {
   color: #CAD2C5;
   opacity: 60%;
 }
@@ -77,95 +88,78 @@ html{
   color: #CAD2C5;
 }
 
-.main-title {
-  font-size: 3.1rem;
-  margin-bottom: 0.75rem;
-  line-height: 2;
-}
-
-.sub-title {
-  font-size: 2.5rem;
-  margin-bottom: 0.75rem;
-  line-height: 0.75;
-}
-
-.title-text {
-  font-size: 2.2rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.1;
-}
-
-.default-text {
-  font-size: 5rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.1;
-}
-
-.small-text {
-  font-size: 1rem;
-}
+/* TEXT SIZING */
 
 
-/* end------------------------------------------------------------------------------------------------------------- */
 
-/* Navbar */
-#navbar {
-  display: flex;
-  position: sticky;
-  top:0;
-  background: #2F3E46;
-  color: #fff;
-  justify-content: space-between;
-  z-index: 1;
-  padding: 1rem;
-}
-
-#navbar ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-#navbar h3 {
-  color: #CAD2C5;
-}
-
-#navbar ul li a {
-  color: #CAD2C5;
-  padding: 0.75rem;
-  margin: 0 0.25rem;
-}
-
-#navbar ul li a:hover {
-  color: #ffffff;
-  border-radius: 5px;
-}
-/* end------------------------------------------------------------------------------------------------------------- */
-
-/* Contact */
-.box {
-  float: left;
-  width: 33.3%;
-  padding: 50px;
+ /* TEXT ALIGNMENT */
+ .text-center {
   text-align:center;
 }
 
-.box i {
-  margin-bottom: 10px;
+.text-left {
+  text-align:left;
 }
 
 
-/* end------------------------------------------------------------------------------------------------------------- */
 
-/* Padding */
 
-/* end------------------------------------------------------------------------------------------------------------- */
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+/*? HOME - SHOWCASE */
 
-/* Footer */
-#main-footer {
-  text-align: center;
-  background: #2F3E46;
-  padding: 20px;
+#home h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #CAD2C5;
+
 }
 
-/* end------------------------------------------------------------------------------------------------------------- */
+.text-above-title{
+  position: absolute;
+  top: 45%;
+  left: 42.7%;
+  transform: translate(-50%, -50%);
+}
+
+.text-below-title{
+  position:absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+
+
+
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+/*? PROJECTS */
+
+
+
+
+
+
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+/*? ABOUT */
+
+
+
+
+
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+/*? CONTACT */
+
+
+
+
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+/*? FOOTER */
+
