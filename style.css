@@ -1,3 +1,9 @@
+/*? FONTS  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap');
+/*!-------------------------------------------------------------------------------------------------------- */
+/**-------------------------------------------------------------------------------------------------------- */
+
 /*? CSS RESET */
 *{
   margin: 0;
@@ -16,7 +22,7 @@ body {
 
 body{
   font-size: 100%;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
@@ -58,6 +64,7 @@ section{
 .bg-color {
   background-color: #2F3E46;
 }
+
 .text-primary {
   color: #CAD2C5;
 }
@@ -75,21 +82,23 @@ section{
   opacity: 60%;
 }
 
-
 /* TEXT SIZING */
 .main-title {
   font-size: 4.2rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .sub-title {
   font-size: 3rem;
   color: #52796F;
+  font-weight: 600;
 }
 
 .small-text {
   font-size: 1rem;
   color: #CAD2C5;
   opacity: 60%;
+  font-weight: 400;
 }
 
 /* TEXT ALIGNMENT */
@@ -112,6 +121,7 @@ section{
 }
 /*!-------------------------------------------------------------------------------------------------------- */
 /**-------------------------------------------------------------------------------------------------------- */
+
 /*? NAVBAR  */
 #home h2, #menu li{
   list-style: none;
@@ -123,6 +133,7 @@ section{
   color: #CAD2C5;
   text-decoration: none;
   font-size: 20px;
+  font-weight: 300;
 }
 
 header{
@@ -144,7 +155,17 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   color: #CAD2C5;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
 
+#home h3 {
+  font-weight: 100;
+}
+
+#home p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
 }
 
 .text-above-title{
@@ -152,7 +173,10 @@ header{
   top: 42%;
   left: 35.7%;
   transform: translate(-50%, -50%);
+  font-family: 'Montserrat', sans-serif;
+  
 }
+
 
 .text-below-title{
   position:absolute;
