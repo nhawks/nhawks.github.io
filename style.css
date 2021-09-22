@@ -60,6 +60,7 @@ section{
   color:#CAD2C5;
 }
 
+
 /* COLORS:  2F3E46 - 354F52 - 52796F - 84A98C - CAD2C5  */
 .bg-color {
   background-color: #2F3E46;
@@ -91,6 +92,7 @@ section{
 .sub-title {
   font-size: 3rem;
   color: #52796F;
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
 }
 
@@ -242,7 +244,9 @@ header{
 /*? ABOUT */
 
 #about p {
-  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 1.75rem;
 }
 
 
@@ -280,5 +284,6 @@ header{
   text-align: center;
   background-color: #2F3E46;
   padding: 20px;
+  font-weight: 150;
 }
 
