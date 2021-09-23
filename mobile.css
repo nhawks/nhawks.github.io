@@ -1,0 +1,65 @@
+#navbar {
+    padding-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#navbar ul {
+    padding: 0.5rem;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+}
+
+#projects .main-title, #about .main-title, #contact .main-title {
+    padding-top: -0.1rem;
+    margin-top: 2rem;
+    font-size: 2.2rem;
+}
+
+.sub-title {
+    font-size: 1.8rem;
+}
+
+/* Home Info */
+#home .text-above-title {
+    font-size: 0.95rem;
+}
+
+#home .text-below-title {
+    font-size: 1.8rem;
+}
+
+#projects .skills-text {
+    font-size: 0.75rem;
+}
+  
+  /* Boxes */
+#contact .box {
+    float: none;
+    width: 100%;
+    border-bottom: #52796F dotted 1px;
+}
+  
+/* About */
+#about p {
+    font-size: 1.4rem;
+}
+  
+/* Contact */
+#contact .sub-title {
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+/* footer */
+.main-footer {
+    font-size: 0.85rem;
+}

@@ -244,9 +244,9 @@ header{
 }
 
 .project-desc, .project-info {
+  font-weight: 300;
   align-items: center;
   justify-content: center;
-  position: inherit;
 }
 
 #project-items h3 {
@@ -281,12 +281,10 @@ header{
 /**-------------------------------------------------------------------------------------------------------- */
 /*? CONTACT */
 #contact .box {
-  margin-top: 10%;
   float: left;
   width: 33.3%;
   padding: 15px;
   text-align:center;
-  margin: auto;
 }
 
 #contact h2 {
