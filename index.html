@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>nh | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
     <!-- link style css -->
     <link rel="stylesheet" href="style.css">
     <!-- link icons for contact -->
     <script src="https://kit.fontawesome.com/572cc1dd20.js" crossorigin="anonymous"></script>
+    <title>nh | Portfolio</title>
 </head>
-
 <body>
+    
     <!--? NavBar -->
     <nav id="navbar">
         <h1 class="logo">
@@ -23,36 +25,67 @@
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
+    </nav>
     
     <!--? Home/Showcase  -->
-    <section id="home">
+    <section id="home" class="py-3">
         <div class="container">
             <h3 class="text-above-title text-tertiary">Hi, my name is</h3>
-             <h1 class="main-title">NiGeanya Hawkins</h1>
+            <h1 class="main-title">NiGeanya Hawkins</h1>
             <p class="text-below-title text-soft">
                     I specialize in full-stack software engineering and have experience in system administration.
             </p>
         </div>
-
     </section>
 
-    <!--? Projects Section -->
-    <section id="projects" class="py-3">
+    <!--? Projects & Skills Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="skills">
+                <h1 class="main-title">My Projects</h1>
+                <h2 class="sub-title text-center">Skills</h2>
+                <h3 class="skills-text text-tertiary">
+                    Python/Django || JavaScript/React || C# .NET <br>
+                    HTML5/CSS3 || ASP.NET Core || MySQL<br> 
+                    Git/GitHub || APIs & Web Services || Azure Fundamentals
+                </h3>
+    </section>
+
+    <!--? Project Breakdown  only pick 3/3 -->
+    <!-- todo: add demos and improve readme -->
+    <section id="project-items" class="bg-color py-3">
         <div class="container">
             <div class="projects-content">
-                <h1 class="main-title">My Projects</h1>
-                <h2 class="sub-title text-center">Project Name</h2>
-                <h3 class="project-info">Language | Frameworks | DB</h3>
-                <p class="project-desc">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptates at, ad quidem deleniti eum maxime unde corporis ut animi quos sit aperiam quam rem exercitationem tempore pariatur voluptatibus veritatis.
-                </p>
-
-                <h2 class="sub-title text-center">Project Name</h2>
-                <h3 class="project-info">Language | Frameworks | DB</h3>
-                <p class="project-desc">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem voluptates at, ad quidem deleniti eum maxime unde corporis ut animi quos sit aperiam quam rem exercitationem tempore pariatur voluptatibus veritatis.
-                </p>
+                <h2 class="sub-title text-center">Robots vs Dinosaurs</h2>
+                    <h3 class="project-info text-tertiary">
+                        Python |
+                        <a href="https://github.com/nhawks/robots-vs-dinosaurs">GitHub Link</a>
+                    </h3>
+                    <p class="project-desc text-soft">
+                        A python terminal game where you take turns attacking the other team. A solo project that reinforced my understanding of Object-Oriented-Programming (OOP).
+                    </p>
+                <h2 class="sub-title text-center">Soda Machine</h2>
+                    <h3 class="project-info text-tertiary">
+                        Python |
+                        <a href="https://github.com/nhawks/soda-machine-debugging">
+                            GitHub Link
+                        </a>
+                    </h3>
+                    <p class="project-desc text-soft">
+                        A python terminal that acts as a soda machine.  This was a pair programming project where we received a completed codebase with over thirty bugs and had to step through it and figure out where the issues in the code were.  
+                    </p>
+                <h2 class="sub-title text-center">Most Wanted</h2>
+                    <h3 class="project-info text-tertiary">
+                        JavaScript |
+                        <a href="https://github.com/nhawks/most-wanted">
+                            GitHub Link
+                        </a>
+                    </h3>
+                    <p class="project-desc text-soft">
+                        A console application that simulates searching through a database for individuals. This was a pair programming project where we received an existing codebase that wasn’t completed. We had to come with our own functions to get the application to work as intended.
+                    </p>
+            </div>
+        </div>
     </section>
 
     <!--? About Section -->
@@ -64,49 +97,44 @@
                 I’ve always had a passion for Information Technology (IT) and learning. When I found out that I could pick my job before joining the Army, I was glad that I was able to select 25B: IT Specialist.
             <p/>
             <p class="text-soft py-1 text-center">
-                During my seven years of service, I had the opportunity to do something I love and serve my country. I realized that I wanted a different challenge and to build something that could positively impact everyone. I decided to pursue a career in software engineering since always enjoying solving problems and being creative.
+                During my seven years of service, I had the opportunity to do something I love and serve my country. I realized that I wanted a different challenge and to build something that could positively impact everyone. I decided to pursue a career in software engineering since I've always enjoying solving problems and being creative.
             </p>
         </div>
     </section>
-
     
     <!--? Contact Section -->
     <section id="contact">
         <div class="container">
             <h1 class="main-title">Contact</h1>
-            <h2 class="sub-title text-center">Stay in touch or message me!</h2>
+            <h2 class="sub-title text-center">
+                Click below to stay in touch or message me!
+            </h2>
         </div>
-
          <!-- Email Icon -->
          <div class="box">
             <a href = "mailto: nmhawkins@outlook.com">
-                <i class="fas fa-envelope fa-8x icon-color"></i>
+                <i class="fas fa-envelope fa-6x icon-color"></i>
             </a>
             <h3 class="soft-text small-text">nmhawkins@outlook.com</></h3>
         </div>
-
          <!-- LinkedIn Icon -->
          <div class="box">
              <a href="https://www.linkedin.com/in/nmhawkins/">
-                <i class="fab fa-linkedin fa-8x icon-color"></i>
+                <i class="fab fa-linkedin fa-6x icon-color"></i>
              </a>
             <h3 class="soft-text small-text">in/nmhawkins</></h3>
         </div>
-
         <!-- GitHub Icon -->
         <div class="box">
              <a href="https://github.com/nhawks">
-                <i class="fab fa-github fa-8x icon-color"></i>
+                <i class="fab fa-github fa-6x icon-color"></i>
             </a>
             <h3 class="soft-text small-text">nhawks</></h3>
         </div>
     </section>
-
     <div class="clr"></div>
-
     <footer class="main-footer">
         <p class="text-soft">Designed and Built By: NiGeanya Hawkins</p>
     </footer>
-
 </body>
 </html>
