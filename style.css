@@ -1,6 +1,7 @@
 /*? FONTS  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css");
 /*!-------------------------------------------------------------------------------------------------------- */
 /**-------------------------------------------------------------------------------------------------------- */
 /*? CSS RESET */
@@ -231,6 +232,13 @@ header{
   font-weight: 450;
   line-height: 1.5;
 }
+
+#projects h3 i {
+  padding: 0.50rem;
+  color:#84A98C;
+  font-size: 4rem;
+}
+
 /*!-------------------------------------------------------------------------------------------------------- */
 /**-------------------------------------------------------------------------------------------------------- */
 /*? PROJECT */
